@@ -1,4 +1,3 @@
-/* Fetching Data from OpenWeatherMap API */
 let weather = {
     apiKey: "945b5f42d6af5adca523e959286b0670",
     fetchWeather: function (city) {
@@ -39,8 +38,6 @@ let weather = {
       this.fetchWeather(document.querySelector(".search-bar").value);
     },
   };
-  
-  /* Fetching Data from OpenCageData Geocoder */
   let geocode = {
     reverseGeocode: function (latitude, longitude) {
       var apikey = "416d5bab654e4153aaa03195203b17d7";
